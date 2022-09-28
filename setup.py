@@ -16,7 +16,7 @@ setuptools.setup(
   packages=setuptools.find_packages(),
   install_requires=[
       'opencv-python>=4.1.0.25',
-      'torch',
+      'torch==1.9.0+cpu',
       'onnx',
       'onnxruntime',
       'Pillow>=6.0.0',
